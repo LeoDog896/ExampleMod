@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Electrum Forge",
-	"description": "Combines molten silver and gold powder to produce electrum.",
+	"description": "Combines electroids and thorium to produce electrum.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "electrum", "amount": 1},
 	"size": 2,
@@ -14,11 +14,11 @@
 		"power": 0.7,
 		"items": {
 			"items": [
-				{ "item": "gold-powder", "amount": 2 }
+				{ "item": "thorium", "amount": 2 }
 			]
 		},
 		"liquid": {
-			"liquid": "molten-silver",
+			"liquid": "electroids",
 			"amount": 1.0
 		}
 	},
@@ -26,7 +26,6 @@
 		{ "item": "lead", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 },
-		{ "item": "silver", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "silver-crucible",
