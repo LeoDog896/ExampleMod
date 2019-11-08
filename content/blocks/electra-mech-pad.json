@@ -10,7 +10,6 @@
 	"category": "upgrade",
 	"research": "wraith-factory",
 	"requirements": [
-		{ "item": "silver", "amount": 70 },
 		{ "item": "electrum", "amount": 40 },
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "graphite", "amount": 50 },
