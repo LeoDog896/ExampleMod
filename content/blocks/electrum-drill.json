@@ -8,7 +8,7 @@
 	"consumes": {
 		"power": 3.0,
 		"liquid": {
-			"liquid": "molten-silver", 
+			"liquid": "electroids", 
 			"amount": 0.1,
 			"booster": true
 		}
