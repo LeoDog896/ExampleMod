@@ -28,7 +28,7 @@
 		{ "item": "silicon", "amount": 60 },
 	],
 	"category": "crafting",
-	"research": "silver-crucible",
+	"research": " electrum-crucible",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
