@@ -12,8 +12,8 @@
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.7,
-		"liquid": {
-			"liquid": [
+		"liquids": {
+			"liquids": [
 				{"liquid": "electroids", amount: 1},
 				{"liquid": "cryofluid", amount: 1}
 			]
@@ -21,7 +21,6 @@
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 },
 	],
 	"category": "crafting",
