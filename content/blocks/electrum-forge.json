@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Electrum Forge",
-	"description": "Combines electroids and thorium to produce electrum.",
+	"description": "Combines electroids to produce electrum.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "electrum", "amount": 1},
 	"size": 2,
@@ -12,10 +12,10 @@
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.7,
-		"liquid": [
-			{"liquid": "electroids", amount: 1},
-			{"liquid": "cryofluid", amount: 1}
-		]
+		"liquid": {
+			"liquid": "electroids",
+			"amount": 1
+		}
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
