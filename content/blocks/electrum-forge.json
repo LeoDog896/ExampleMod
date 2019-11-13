@@ -12,12 +12,10 @@
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.7,
-		"liquid": {
-			"liquid": [
-				{"liquid": "electroids", amount: 1},
-				{"liquid": "cryofluid", amount: 1}
-			]
-		}
+		"liquid": [
+			{"liquid": "electroids", amount: 1},
+			{"liquid": "cryofluid", amount: 1}
+		]
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
