@@ -12,14 +12,11 @@
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.7,
-		"items": {
-			"items": [
-				{ "item": "thorium", "amount": 2 }
-			]
-		},
 		"liquid": {
-			"liquid": "electroids",
-			"amount": 1.0
+			"liquid": [
+				{"liquid": "electroids", amount: 1},
+				{"liquid": "cryofluid", amount: 1}
+			]
 		}
 	},
 	"requirements": [
