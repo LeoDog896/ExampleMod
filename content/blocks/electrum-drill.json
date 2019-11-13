@@ -2,9 +2,9 @@
 	"name": "Electrum Drill",
 	"description": "A very strange drill.",
 	"type": "Drill",
-	"size": 3,
+	"size": 2,
 	"tier": 2,
-	"drillTime": 250,
+	"drillTime": 150,
 	"consumes": {
 		"power": 3.0,
 		"liquid": {
