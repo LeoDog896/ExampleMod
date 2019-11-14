@@ -1,0 +1,29 @@
+{
+	"type": "DoubleTurret",
+	"name": "Turtrum",
+	"description": "Sprays stored electrum everywhere.",
+	"health": 200,
+	"size": 1,
+	"reload": 3,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 15,
+	"rotatespeed": 50,
+	"ammo": {
+		"electrum": {
+			"speed": 6.0,
+			"damage": 9,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 7
+		}
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 40 },
+		{ "item": "copper", "amount": 70 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
